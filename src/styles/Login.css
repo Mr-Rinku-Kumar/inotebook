@@ -1,0 +1,36 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height */
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Background gradient */
+    color: white;
+}
+
+.login-title {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.login-form {
+    background: white; /* White background for the form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Fixed width for the form */
+}
+
+.form-label {
+    color: #333; /* Darker text for labels */
+}
+
+.btn-primary {
+    background-color: #2575fc; /* Button color */
+    border: none;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn-primary:hover {
+    background-color: #1e60a7; /* Darker shade on hover */
+}

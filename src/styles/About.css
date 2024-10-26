@@ -1,0 +1,33 @@
+.about-container {
+    padding: 2rem;
+    background-color: #f7f9fc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, #ffebc5, #fff4e1);
+
+  }
+  
+  .about-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .about-container h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+    color: #444;
+  }
+  
+  .about-container p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .about-container ul {
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    color: #555;
+  }
+  
